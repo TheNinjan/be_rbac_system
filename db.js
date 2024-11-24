@@ -7,10 +7,19 @@ const mysql = require('mysql2');
 // });
 
 
-// Grocerz DEV
+// dev environment
+
+// module.exports = mysql.createConnection({
+//   host: 'sql207.infinityfree.com',
+//   user: 'if0_37775797',            
+//   password: "NmCRKzzQuS6xR" ,      
+//   database: 'if0_37775797_rbac_system', 
+//   port: 3306
+// });
 module.exports = mysql.createConnection({
-  host: 'gateway01.ap-southeast-1.prod.aws.tidbcloud.com',
-  user: '4JxDG3kmktYk1RM.root',
-  password: 'TKHJVIuO3EhClhkv',
-  database: 'test'
+  host: 'sql.freedb.tech',
+  user: 'freedb_theninjan',            
+  password: "jdjFu#8v9M&GQmr" ,      
+  database: 'freedb_rbac_system', 
+  port: 3306
 });
